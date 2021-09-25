@@ -12,4 +12,4 @@
 - Git
 - Figma
 
-[GitHub Pages]()
+[GitHub Pages](https://ann-wi.github.io/russian-travel/)
