@@ -1,7 +1,4 @@
 .cover__title {
-  position: absolute;
-  top: 245px;
-  left: 312px;
   line-height: 76px;
   font-size: 72px;
   font-weight: 900;
@@ -9,27 +6,21 @@
   text-align: center;
   margin: 0 auto;
   max-width: 560px;
-  text-rendering: optimizeLegibility;
   z-index: 2;
+  text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__title {
-    top: 195px;
-    left: 232px;
   }
 }
 @media screen and (max-width: 768px) {
   .cover__title {
-    top: 115px;
-    left: 104px;
   }
 }
 
 @media screen and (max-width: 540px) {
   .cover__title {
-    top: 115px;
-    left: 76px;
     line-height: 50px;
     font-size: 48px;
     max-width: 388px;
@@ -38,8 +29,6 @@
 
 @media screen and (max-width: 425px) {
   .cover__title {
-    top: 70px;
-    left: 67px;
     max-width: 291px;
     line-height: 35px;
     font-size: 32px;
@@ -48,8 +37,6 @@
 
 @media screen and (max-width: 320px) {
   .cover__title {
-    top: 33px;
-    left: 16px;
     line-height: 35px;
     font-size: 32px;
     max-width: 288px;
