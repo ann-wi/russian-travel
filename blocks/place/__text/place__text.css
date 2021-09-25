@@ -1,8 +1,17 @@
-@media screen and (max-width: 1280px) {
+.place__text {
+  grid-area: text;
+  margin: 0 auto;
+  padding: 0;
 }
-@media screen and (max-width: 1024px) {
-}
+
 @media screen and (max-width: 768px) {
+  .place__text {
+    max-width: 100%;
+  }
 }
+
 @media screen and (max-width: 320px) {
+  .place__text {
+    max-width: 288px;
+  }
 }

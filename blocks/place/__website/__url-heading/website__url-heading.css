@@ -1,8 +1,9 @@
-@media screen and (max-width: 1280px) {
-}
-@media screen and (max-width: 1024px) {
-}
-@media screen and (max-width: 768px) {
-}
-@media screen and (max-width: 320px) {
+.website__url-heading {
+  line-height: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #aaa;
+  margin: 0;
+  padding: 0;
 }
