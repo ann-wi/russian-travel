@@ -20,19 +20,11 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 600px) {
   .footer {
-    max-width: 640px;
+    max-width: 500px;
     flex-direction: column;
-    margin: 64px auto 24px auto;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .footer {
-    flex-direction: column;
-    max-width: 490px;
-    margin: 64px auto 24px auto;
+    margin: 64px 16px 24px 16px;
   }
 }
 
@@ -41,6 +33,7 @@
     max-width: 390px;
   }
 }
+
 @media screen and (max-width: 320px) {
   .footer {
     max-width: 288px;

@@ -16,15 +16,6 @@
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    max-width: 720px;
-    margin: 48px auto 0 auto;
-    line-height: 85px;
-    font-size: 85px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .lead__title {
     max-width: 640px;
     line-height: 73px;
     font-size: 73px;
@@ -48,16 +39,8 @@
 
 @media screen and (max-width: 360px) {
   .lead__title {
-    line-height: 58px;
-    line-height: 44px;
-    font-size: 44px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead__title {
     max-width: 288px;
     line-height: 44px;
-    font-size: 40px;
+    font-size: 44px;
   }
 }

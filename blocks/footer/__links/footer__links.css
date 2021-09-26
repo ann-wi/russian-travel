@@ -1,6 +1,6 @@
 .footer__links {
   display: grid;
-  grid-template-columns: repeat(5, max-content);
+  grid-template-columns: repeat(5, min-content);
   grid-template-rows: 1fr;
   gap: 18px;
   list-style-type: none;
@@ -8,11 +8,9 @@
   padding: 0;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .footer__links {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    margin: 0 0 48px 0;
-    gap: 32px;
+    grid-template-columns: min-content;
+    grid-template-rows: 1fr;
   }
 }
