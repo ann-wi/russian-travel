@@ -16,22 +16,20 @@
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    max-width: 640px;
-    line-height: 73px;
-    font-size: 73px;
+    max-width: 720px;
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 695px) {
   .lead__title {
-    line-height: 60px;
-    font-size: 60px;
+    line-height: 50px;
+    font-size: 52px;
+    max-width: 490px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .lead__title {
-    line-height: 58px;
     font-size: 52px;
     max-width: 390px;
   }
@@ -41,6 +39,6 @@
   .lead__title {
     max-width: 288px;
     line-height: 44px;
-    font-size: 44px;
+    font-size: 40px;
   }
 }

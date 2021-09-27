@@ -43,9 +43,3 @@
     grid-template-rows: min-content max-content 320px 1fr;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .place {
-    grid-template-rows: min-content max-content 320px 1fr;
-  }
-}

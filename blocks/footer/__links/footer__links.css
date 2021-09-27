@@ -8,9 +8,10 @@
   padding: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   .footer__links {
     grid-template-columns: min-content;
     grid-template-rows: 1fr;
+    gap: 32px;
   }
 }
